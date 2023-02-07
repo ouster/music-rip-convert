@@ -1,18 +1,21 @@
 # useful scripts
 
-probably should have started this years go
+Probably should have started this years go
 
 collecting useful randoms scripts as I go
 
-# CD Rip and Copy to Nas
+# CD Rip via Apple Music and Copy to Nas
 
 # useful-scripts
 
 This bash script was written and tested on macOS
 
-## It's purpose is to wait for a cd to be mounted under /Volumes that has a volume name that is not Audio CD or blank as it depends on Apple Music to rename the Volume automatically
+## Purpose
+1. Copy by CD's to my Nas and ingest into Apple Music
+2. Wait for a cd to be mounted under /Volumes that has a volume name that is not Audio CD or blank
+3. Depends on Apple Music to rename the Volume automatically to something useful (Apple Music's source is GraceNote)
 
-Apple Music will rip the music automatically which was sufficent for me to get my collection online
+Apple Music will rip the music automatically which was sufficient for me to get my collection online
 
 It also rsync's the aiff files as is to a network drive (my Nas in my case)
 
@@ -22,19 +25,25 @@ So as a second manual pass I'll add metadata using this free tool: https://picar
 
 ## Workflow:
 
-- Setup an mac in a corner of a room with a cd drive plugged
-- Run this script edited to match your requirements
-- Run caffeinate in another window (brew install caffeine)
-- insert disc
-- wait for Apple music to start ripping or prompt for multiple metadata matches
-- wait for disc to eject
-+ repeat
+- Setup an mac in a corner of a room with a cd drive plugged in
+- Run this script edited to match your requirements, drive etc
+- Run caffeinate in another window (brew install caffeine) to stop that mac sleeping
+- Insert disc
+- Wait for Apple music to start ripping or prompt for multiple metadata matches
+- Wait for disc to eject
++ Repeat
 
-Warning this can take weeks but there is very little interaction
+Warning this can take weeks, but there is very little interaction it's just tedious
+
 ## TODO
 
-presumably metadata can be automated better using some other tools such as:
+Presumably addtion of the metadata can be automated better and added to the .aiff files using some other tools such as:
+You might want to disable auto ingestion by Apple Music as well from the script
 
-Suggestion from ChatGPT:
+### Suggestion from ChatGPT:
 third-party tool such as XLD or Max to rip CDs on a Mac and automatically add CDDB metadata to the ripped files. Both XLD and Max are free and offer options to extract audio tracks from CDs and retrieve metadata from online databases such as CDDB. After the tracks have been ripped, the metadata can be saved in the file's ID3 tags, which can be read by most media players
+
+## Thoughts
+- If you just want in Apple music you can not use the script but there is no way to get it out again?
+- Music that is curated metadata and tracks on a drive can be ingested into Apple music or Spotify as a final step I believe 
 
