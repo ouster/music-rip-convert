@@ -33,7 +33,12 @@ So as a second manual pass I'll add metadata using this free tool: https://picar
 - Wait for disc to eject
 + Repeat
 
+*Notes*
+Once that is all done you can manually use Picard Musicbrainz to write the manually curated metadata into the .aiff files as it will be more accurate
+Or you can just do it for the entire collection and clean it up manually but there are 2300+ files to look at ;) and I feel that is more dangerous
+
 Warning this can take weeks, but there is very little interaction it's just tedious
+
 
 ## TODO
 
@@ -43,6 +48,7 @@ You might want to disable auto ingestion by Apple Music as well from the script 
 
 ### Suggestion from ChatGPT:
 third-party tool such as XLD or Max to rip CDs on a Mac and automatically add CDDB metadata to the ripped files. Both XLD and Max are free and offer options to extract audio tracks from CDs and retrieve metadata from online databases such as CDDB. After the tracks have been ripped, the metadata can be saved in the file's ID3 tags, which can be read by most media players
+*Note* If this prompts you to select the correct info or enterit manually all good - submitted manually entered metadata via / artwork via Apple Music (for 2% of my collection that was more non commerical cd's)
 
 ## Thoughts
 - If you just want in Apple music you can not use the script but there is no way to get it out again?
