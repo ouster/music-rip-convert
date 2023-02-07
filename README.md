@@ -2,4 +2,4 @@
 
 probably should have started this years go
 
-collecting useful ranomd scripts as I go
+collecting useful randomscripts as I go
