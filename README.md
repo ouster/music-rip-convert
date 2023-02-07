@@ -11,7 +11,7 @@ collecting useful randoms scripts as I go
 This bash script was written and tested on macOS
 
 ## Purpose
-1. Copy by CD's to my Nas and ingest into Apple Music
+1. Copy my CD's to my Nas and ingest into Apple Music
 2. Wait for a cd to be mounted under /Volumes that has a volume name that is not Audio CD or blank
 3. Depends on Apple Music to rename the Volume automatically to something useful (Apple Music's source is GraceNote)
 
