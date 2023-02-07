@@ -35,6 +35,7 @@ So as a second manual pass I'll add metadata using this free tool: https://picar
 
 *Notes*
 Once that is all done, you can manually use Picard Musicbrainz to write the manually curated metadata into the .aiff files as it will be more accurate
+
 Or you can just do it for the entire collection and clean it up manually but there are 2300+ files to look at ;) and I feel that is more dangerous
 
 #Warning# this can take weeks, but there is very little interaction it's just tedious
