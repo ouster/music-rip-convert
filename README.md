@@ -37,8 +37,9 @@ Warning this can take weeks, but there is very little interaction it's just tedi
 
 ## TODO
 
-Presumably addtion of the metadata can be automated better and added to the .aiff files using some other tools such as:
-You might want to disable auto ingestion by Apple Music as well from the script
+Presumably addtion of the metadata can be automated better and added to the .aiff files using some other cli tools - but there will be mistakes made by that approach.
+
+You might want to disable auto ingestion by Apple Music as well from the script as that will speed up ingestion
 
 ### Suggestion from ChatGPT:
 third-party tool such as XLD or Max to rip CDs on a Mac and automatically add CDDB metadata to the ripped files. Both XLD and Max are free and offer options to extract audio tracks from CDs and retrieve metadata from online databases such as CDDB. After the tracks have been ripped, the metadata can be saved in the file's ID3 tags, which can be read by most media players
